@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gmail Focus Mode",
+  "version": "0.1.1",
+  "description": "Gmail without the Inbox - Hide the Inbox and still show the message sending and search listings for when you're in the middle of a project and you need to find a message without getting distracted.",
+
+  "content_scripts": [
+    {
+      //   "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://mail.google.com/*"]
+    }
+  ]
+}
